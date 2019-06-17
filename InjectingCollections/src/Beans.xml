@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   <bean id = "text" class="com.pac.ClassCollection">
+  <property name="addresslist">
+   <list>
+   <value>"India"</value>
+   <value>"Kar"</value>
+   <value>""Bangalore"</value>
+   <value>"India"</value>
+   </list>
+   </property>
+   
+   <property name="addressset">
+   <set>
+   <value>USA</value>
+   <value>NK</value>
+   <value>Amazon</value>
+   <value>USA</value></set>
+   </property>
+   
+   <property name="addressmap">
+   <map>
+   <entry key="1" value="UK">
+   </entry>
+   <entry key="2" value="BT"></entry>
+   <entry key="2" value="UT">
+   </entry>
+  
+   </map>
+   
+   </property> 
+   <property name="addressprop">
+   <props>	
+   <prop key="String">Japan</prop>
+   <prop key="123">TK</prop>
+   <prop key="Man">HIRO</prop>
+   <prop key="Man">HIRO</prop>
+   </props>
+   </property> 
+   
+  
+    </bean>
+   </beans>
